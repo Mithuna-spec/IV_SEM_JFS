@@ -21,3 +21,85 @@ git pull --rebase
 → Downloads remote commits
 → Replays your local commits on top of them
 → Keeps history clean
+
+
+
+chat gpt :
+Git Workflow — General Revision Guide
+What Git Does
+
+Git tracks changes in your project and lets you save versions to GitHub.
+
+Basic Daily Workflow
+1️⃣ Check status
+git status
+
+
+Shows modified, added, or deleted files.
+
+2️⃣ Add changes (staging)
+
+Add one file:
+
+git add filename.ext
+
+
+Add everything:
+
+git add .
+
+3️⃣ Commit (save version locally)
+git commit -m "Clear message about changes"
+
+
+Example:
+
+git commit -m "Fixed backend API bug"
+
+4️⃣ Pull latest changes (important)
+git pull origin main --rebase
+
+
+Downloads updates from GitHub before pushing.
+
+5️⃣ Push to GitHub
+git push origin main
+
+
+Uploads your commits.
+
+First Time Setup (Clone)
+
+Clone repository:
+
+git clone https://github.com/username/repo.git
+
+
+Move into folder:
+
+cd repo
+
+Check Repository URL
+git remote -v
+
+See Commit History
+git log
+
+
+Short version:
+
+git log --oneline
+
+Common Problems
+Push rejected
+
+Fix:
+
+git pull origin main --rebase
+git push origin main
+
+Undo unstaged changes
+git restore filename.ext
+
+Remove untracked files
+git clean -fd

@@ -1,0 +1,14 @@
+https://github.com/ekrpatro/IVSEM_JFS
+
+to create a local git
+git init
+git add .
+git commit -m "sink static"
+git remote add origin https://github.com/Mithuna-spec/IV_SEM_JFS.git
+git push -u origin main
+git push origin master
+
+to change in the local repo then you can follow 
+
+there in repo just check,
+h/w: do for arraylist method, for this problem . and  by using collection

@@ -16,3 +16,8 @@ to change in the local repo then you can follow these steps
 2. git add git_guidelines.txt
 3. git commit -m "git guidelines"
 4. git push origin master
+
+git pull --rebase
+→ Downloads remote commits
+→ Replays your local commits on top of them
+→ Keeps history clean

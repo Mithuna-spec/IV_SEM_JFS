@@ -1,0 +1,4 @@
+File modes:
+1. Writing
+2. Reading
+3. Append
